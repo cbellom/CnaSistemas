@@ -40,8 +40,8 @@ var appMaster = {
         });
     },
 
-    screensCarousel: function() {
-        // Screens Carousel
+    productsCarousel: function() {
+        // products Carousel
         $('.filtering').slick({
             slidesToShow: 4,
             slidesToScroll: 4,
@@ -149,7 +149,7 @@ $(document).ready(function() {
 
     appMaster.reviewsCarousel();
 
-    appMaster.screensCarousel();
+    appMaster.productsCarousel();
 
     appMaster.animateScript();
 

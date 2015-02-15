@@ -209,10 +209,10 @@ section#about .about-item i.fa {
   transition: all 0.25s ease-in-out;
   width: 104px;
 }
-section#features .media > .pull-right {
+section#services .media > .pull-right {
   margin-left: 20px;
 }
-section#features .media i.fa {
+section#services .media i.fa {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -227,23 +227,23 @@ section#features .media i.fa {
   width: 2.6em;
   text-align: center;
 }
-section#features .media .media-heading {
+section#services .media .media-heading {
   padding-top: 10px;
   font-weight: 300;
 }
-section#features .media .media-body {
+section#services .media .media-body {
   color: #999999;
 }
-section#features .media.media-left .media-body {
+section#services .media.media-left .media-body {
   text-align: right;
 }
-section#features .media.feature {
+section#services .media.feature {
   margin-top: 25px;
 }
-section#features .media.feature:first-child {
+section#services .media.feature:first-child {
   margin-top: 0;
 }
-section#features img {
+section#services img {
   margin: 0 auto 20px;
 }
 section#reviews {
@@ -317,10 +317,10 @@ section#reviews .review-filtering .slick-dots li button {
 section#reviews .review-filtering .slick-dots li button:before {
   display: none;
 }
-section#screens .slider {
+section#products .slider {
   margin: 50px 0;
 }
-section#screens .slider div img {
+section#products .slider div img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -329,35 +329,35 @@ section#screens .slider div img {
   padding: 10px;
   display: inline;
 }
-section#screens .slider div h4 {
+section#products .slider div h4 {
   text-align: center;
   margin-top: 40px;
   font-size: 16px;
 }
-section#screens .slider .slick-dots li button {
+section#products .slider .slick-dots li button {
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   border-radius: 5em;
 }
-section#screens .slick-prev,
-section#screens .slick-next {
+section#products .slick-prev,
+section#products .slick-next {
   width: 50px;
   height: 50px;
   top: 44%;
 }
-section#screens .slick-slide {
+section#products .slick-slide {
   text-align: center;
 }
-section#screens .slick-prev:before {
+section#products .slick-prev:before {
   content: "\f104";
 }
-section#screens .slick-next:before {
+section#products .slick-next:before {
   content: "\f105";
 }
-section#screens .slick-prev:before,
-section#screens .slick-next:before {
+section#products .slick-prev:before,
+section#products .slick-next:before {
   font-size: 34px;
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
@@ -372,10 +372,10 @@ section#screens .slick-next:before {
   height: 50px;
   text-align: center;
 }
-section#screens .filter {
+section#products .filter {
   text-align: center;
 }
-section#screens .filter a {
+section#products .filter a {
   display: inline-block;
   padding: 7px 20px;
   text-decoration: none;
@@ -788,28 +788,28 @@ section#about .about-item:hover i.fa {
 section#about .about-item:hover h3 {
   color: #cc6698;
 }
-section#features {
+section#services {
   background: #f6f6f6;
 }
-section#features header h1:after {
+section#services header h1:after {
   background: #cc6698;
 }
-section#features .media i.fa {
+section#services .media i.fa {
   border: 2px solid #cc6698;
   color: #cc6698;
 }
-section#features .media:hover i.fa {
+section#services .media:hover i.fa {
   color: #ffffff;
   background: #cc6698;
 }
-section#features .media:hover h3 {
+section#services .media:hover h3 {
   color: #cc6698;
 }
-section#features .media.active i.fa {
+section#services .media.active i.fa {
   color: #ffffff;
   background: #cc6698;
 }
-section#features .media.active .media-heading {
+section#services .media.active .media-heading {
   color: #cc6698;
 }
 section#reviews {
@@ -843,31 +843,31 @@ section#reviews .review-filtering .slick-dots li button {
 section#reviews .review-filtering .slick-dots li.slick-active button {
   background: #cc6698;
 }
-section#screens header h1:after {
+section#products header h1:after {
   background: #cc6698;
 }
-section#screens .slider div img {
+section#products .slider div img {
   border: 2px solid #e5e5e5;
 }
-section#screens .slider div h4 {
+section#products .slider div h4 {
   color: #999999;
 }
-section#screens .slider .slick-dots li button {
+section#products .slider .slick-dots li button {
   background: #999999;
 }
-section#screens .slider .slick-dots li.slick-active button {
+section#products .slider .slick-dots li.slick-active button {
   background: #cc6698;
 }
-section#screens .filter a {
+section#products .filter a {
   border: 2px solid #cccccc;
   color: #999999;
 }
-section#screens .filter a:hover {
+section#products .filter a:hover {
   color: #ffffff;
   background: #cc6698;
   border-color: #cc6698;
 }
-section#screens .filter a.active {
+section#products .filter a.active {
   color: #ffffff;
   background: #cc6698;
   border-color: #cc6698;
