@@ -1106,3 +1106,12 @@ form .form-control:focus {
 .pre-loader {
   background: #2455a5;
 }
+ .button-exit-case{
+   background-color: #0a588d;
+   color: #ffffff
+ }
+
+.button-exit-case:hover{
+  background-color: #00A8FF;
+  color: #08436b;
+}
